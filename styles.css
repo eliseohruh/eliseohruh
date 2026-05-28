@@ -1,0 +1,164 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f2ef;
+  color: #8b6a60;
+  line-height: 1.7;
+}
+
+.hero {
+  padding: 80px 20px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.logo img {
+  max-width: 380px;
+  width: 100%;
+}
+
+.subtitle {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c08f7b;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  color: #b07b69;
+}
+
+h2 {
+  font-size: 42px;
+  color: #b07b69;
+}
+
+.description {
+  max-width: 550px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  background: #c08f7b;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 80px 20px;
+}
+
+.soft-bg {
+  background: #fffaf7;
+}
+
+.two-columns {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.two-columns > div {
+  flex: 1;
+  min-width: 280px;
+}
+
+.flower {
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.pricing {
+  max-width: 700px;
+  margin: 40px auto 0;
+  background: white;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.pricing div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pricing div:last-child {
+  border-bottom: none;
+}
+
+.diploma {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 20px;
+}
+
+.contact {
+  background: #c08f7b;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.light {
+  color: rgba(255,255,255,0.8);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #f0e5df;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
