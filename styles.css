@@ -140,11 +140,13 @@ h2 {
 
 .contact {
   background: #c08f7b;
-  color: #FFF3ED;
+  color: white;
   text-align: center;
   padding: 80px 20px;
 }
-
+.contact h2 {
+  color: #FFF8F4;
+}
 .light {
   color: rgba(255,255,255,0.8);
 }
