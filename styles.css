@@ -48,11 +48,6 @@ h2 {
   font-size: 42px;
   color: #b07b69;
 }
-.portrait-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .portrait {
   width: 100%;
   max-width: 250px;
