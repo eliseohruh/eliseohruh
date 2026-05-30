@@ -51,7 +51,7 @@ h2 {
 .portrait {
   width: 100%;
   max-width: 250px;
-  gap: 40px;
+ transform: translateX(40px);
   
 }
 .description {
